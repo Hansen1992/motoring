@@ -1,6 +1,6 @@
 # motoring
 
-Empty project.
+Made as a educational presentation of different animation libraries. Build in React
 
 ## Building and running on localhost
 
