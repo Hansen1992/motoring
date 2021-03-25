@@ -1,0 +1,30 @@
+.cardsWrapper {
+	align-content: center;
+    align-items: center;
+	display: flex;
+	height: 100vh;
+	justify-content: space-between;
+	padding: 6px;
+	width: 100vw;
+}
+
+.card {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+	margin: 10px;
+	width: 300px;
+}
+
+.image1 {
+	background-image: url('../../img/bike1.jpg');
+}
+
+.image2 {
+	background-image: url('../../img/bike2.jpg');
+}
+
+.image3 {
+	background-image: url('../../img/bike3.jpg');
+}

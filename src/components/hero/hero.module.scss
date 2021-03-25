@@ -1,0 +1,76 @@
+.heroImage {
+	background-image: url('../../img/hero.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+
+	&::after {
+		content: '';
+		background: #000;
+		opacity: 0.4;
+		width: 100%;
+		height: 100%;
+		display: block;
+	}
+}
+
+.headerWrapper {
+	display: block;
+	text-transform: uppercase;
+	position: relative;
+	z-index: 1;
+
+	.contact {
+		font-size: 1rem;
+		position: absolute;
+		left: 50px;
+		top: 16px;
+		transition: color 400ms;
+
+		&:hover {
+			color: #d64424;
+		}
+	}
+
+	.menu {
+		font-size: 1rem;
+		position: absolute;
+		right: 50px;
+		top: 16px;
+		transition: color 400ms;
+
+		&:hover {
+			color: #d64424;
+		}
+	}
+}
+
+.heroTitle {
+	font-size: 3rem;
+	font-weight: 600;
+	line-height: 80px;
+	letter-spacing: 12px;
+	position: absolute;
+	top: 40%;
+    left: 50%;
+	text-align: center;
+	text-transform: uppercase;
+    transform: translate(-50%, -50%);
+	z-index: 1;
+}
+
+.heroSubtitle {
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 56px;
+	letter-spacing: 10px;
+	position: absolute;
+	top: 194%;
+    left: 50%;
+	text-align: center;
+    transform: translate(-50%, -50%);
+	z-index: 1;
+}
